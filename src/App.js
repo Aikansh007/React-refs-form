@@ -1,26 +1,24 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import MyForm1 from './form/myForm1'
+import MyForm2 from './form/myForm2'
+import MyForm3 from './form/myForm3';
+import FormValidation from './form/formValidation';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends React.Component
+{
+  render()
+  {
+    return(
+      <div>
+        <h1>Welcome to React Form</h1>
+        {/* <MyForm1></MyForm1> */}
+        {/* <MyForm2></MyForm2> */}
+        {/* <MyForm3></MyForm3> */}
+        <FormValidation></FormValidation>
+      </div>
+    )
+  }
 }
+
 
 export default App;
