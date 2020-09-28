@@ -1,5 +1,8 @@
 import React from 'react'
 
+
+// uncontrolled Component
+
 class MyForm1 extends React.Component
 {
     constructor(props)

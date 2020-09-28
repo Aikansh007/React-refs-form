@@ -65,9 +65,11 @@ class FormValidation extends React.Component
                     <input name='name' value={this.state.name} onChange={this.handleChange}></input>
                     <div style={styleError}>{this.state.nameError}</div>
                
-                     <lable>Notifiaction</lable>   
+                     <lable>Notification</lable>   
                      <input type='checkbox' name='remMe' onChange={this.handleChange} />   
                      <div style={styleError}>{this.state.remError}</div>
+                    
+                    
                      <button onClick={this.handleSubmit}>Submit</button>
                 </div>
             )
